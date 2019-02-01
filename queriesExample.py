@@ -37,7 +37,7 @@ session.commit()
 # i could use a for loop and then commit
 
 # DELETE ITEM
-UrbanVeggieBurger = session.query(MenuItem).filter_by(id = 9).one()
-session.delete(UrbanVeggieBurger)
-session.commit()
+# UrbanVeggieBurger = session.query(MenuItem).filter_by(id = 9).one()
+# session.delete(UrbanVeggieBurger)
+# session.commit()
 
